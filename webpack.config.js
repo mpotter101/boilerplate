@@ -19,7 +19,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 include: [
-                    path.resolve(__dirname, 'src'),
+                    path.resolve(__dirname, 'project'),
                     // Resolve threejs
                     // path.resolve(__dirname, 'node_modules/three'),
                     // fs.realpathSync('./node_modules/three'),
