@@ -1,10 +1,8 @@
-// Import objects here
+// Import objects
 
-// Global variables
+// Variables shared across instances
 
 // The starting point for the application
 export default class App {
-    constructor (config) {
-        console.log ('App is starting! Config:', config)
-    }
+    constructor (config) { }
 }
