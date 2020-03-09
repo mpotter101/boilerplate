@@ -4,5 +4,7 @@
 
 // The starting point for the application
 export default class App {
-    constructor (config) { }
+    constructor (config) {
+        console.log ('App created...')
+    }
 }
